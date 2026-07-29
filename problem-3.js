@@ -1,5 +1,5 @@
 function calculateAiCost(tokensUsed) {
-  if (typeof tokensUsed !== 'number' || tokensUsed < 0) {
+  if (typeof tokensUsed !== 'number' || tokensUsed < 0 || Number.isNaN(tokensUsed)) {
     return'Invalid';
   }
   else{
@@ -12,7 +12,7 @@ function calculateAiCost(tokensUsed) {
     }
   }
 }
-let result1 = calculateAiCost(300);
+let result1 = calculateAiCost();
 console.log(result1);
 let result2 = calculateAiCost(500);
 console.log(result2);
@@ -24,3 +24,4 @@ let result5 = calculateAiCost(-10);
 console.log(result5);
 let result6 = calculateAiCost("500");
 console.log(result6);
+
