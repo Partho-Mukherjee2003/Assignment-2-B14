@@ -16,6 +16,8 @@ function averageResponseTime(times) {
   }
 }
 
+
+
 let result1 = averageResponseTime([120, 200, 150, 130]);
 let result2 = averageResponseTime([100, 100]);
 let result3 = averageResponseTime([]);

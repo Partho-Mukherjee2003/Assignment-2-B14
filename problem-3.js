@@ -12,6 +12,9 @@ function calculateAiCost(tokensUsed) {
     }
   }
 }
+
+
+
 let result1 = calculateAiCost();
 console.log(result1);
 let result2 = calculateAiCost(500);
