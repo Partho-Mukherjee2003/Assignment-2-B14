@@ -6,10 +6,10 @@ function isElevatorSafe(weights) {
     }
 
     if (totalWeight <= 400 ){
-      return"true"
+      return true
 
     }
-    else return"false"
+    else return false
   }
   else return"Invalid";
 
